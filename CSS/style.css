@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Tw Cen MT, sans-serif;
+    font-family: sans-serif;
     text-decoration: none;
     background: url('../Billeder/brickwall.webp');
     background-size: cover;
@@ -14,7 +14,10 @@ body {
 
 /* navbar start*/
 .logo {
-    height: 5rem;
+    height: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 0.5rem;
 }
 
 header {
@@ -24,11 +27,13 @@ header {
     right: 0;
     background: #de8200;
     box-shadow: 0rem 0rem 1rem #000000;
-    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     display: flex;
     z-index: 1000;
     align-items: center;
     justify-content: space-between;
+    border: solid 0.1rem #000000;
 }
 
 header .navbar ul {
@@ -44,8 +49,11 @@ header .navbar ul li {
 
 header .navbar ul li a {
     text-decoration: none;
-    font-size: 1rem;
-    padding: 0.8rem;
+    font-size: 1.2rem;
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     color: #000000;
     display: block;
 }
@@ -59,6 +67,16 @@ header .navbar ul li ul {
     display: none;
     left: 0;
     background: #de8200;
+    border: solid 0.1rem #000000;
+    border-top: none;
+    padding-bottom: 1rem;
+}
+
+header .navbar ul li ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 header .navbar ul li:focus-within > ul,
