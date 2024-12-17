@@ -3,3 +3,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Tw Cen MT, sans-serif;
+    text-decoration: none;
+    background: url('../Billeder/brickwall.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+/* navbar start*/
+.logo {
+    height: 5rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #de8200;
+    box-shadow: 0rem 0rem 1rem #000000;
+    padding: 0.5rem;
+    display: flex;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.8rem;
+    color: #000000;
+    display: block;
+}
+
+header .navbar ul li a:hover {
+    color: #00bdd1;
+}
+
+header .navbar ul li ul {
+    position: absolute;
+    display: none;
+    left: 0;
+    background: #de8200;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+    display: block;
+}
+
+#menu-bar {
+    display: none;
+}
+
+#menu-bar:checked ~ .navbar {
+    display: block;
+}
+
+header label {
+    font-size: 2rem;
+    color: #000000;
+    cursor: pointer;
+    display: none;
+}
