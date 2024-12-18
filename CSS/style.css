@@ -134,7 +134,7 @@ section.nyheder article {
     flex-direction: column;
 }
 
-div {
+section.nyheder div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -179,7 +179,7 @@ section.kalender {
     flex-direction: row;
     align-items: center;
     margin-top: 21rem;
-    background: linear-gradient(to right, transparent, #de8200 45%);
+    background: linear-gradient(to right, transparent 15%, #de8200 45%);
     justify-content: center;
     padding: 0rem 14rem;
 }
@@ -225,28 +225,86 @@ section.kalender ul {
 
 /*billetter start*/
 section.billetter {
-    background: #de8200;
+    background: linear-gradient(to left, transparent 15%, #de8200 45%);
     margin-top: 21rem;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    padding: 0rem 14rem;
+    padding: 0rem 20rem 0rem 8rem;
 }
 
 section.billetter figure {
     width: 60%;
     display: flex;
     justify-content: center;
-    padding: 0rem 1rem;
+    padding: 2rem 1rem 2rem 1rem;
 }
 
 section.billetter img {
     width: 30rem;
 }
 
+section.billetter h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 0rem 0rem 0rem 7rem;
+}
+
+section.billetter h2 a:hover {
+    color: #00bdd1;
+}
+/*billetter slut*/
 
 
+
+/*tilbud start*/
+section.tilbud {
+    background: linear-gradient(to right, transparent 15%, #de8200 45%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21rem;
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+section.tilbud figure {
+    display: flex;
+    justify-content: center;
+}
+
+section.tilbud img {
+    width: 45rem;
+}
+
+section.tilbud h2 {
+    font-size: 4rem;
+    text-align: center;
+}
+/*tilbud slut*/
+
+
+
+/*galleri start*/
+section.galleri {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: #DE8200;
+    padding: 2rem;
+    margin-top: 21rem;
+}
+
+section.galleri h2 {
+    font-size: 5rem;
+    margin: 0rem 15rem;
+}
+
+section.galleri .reflect img {
+    transform: scaleX(-1);
+}
 
 
 
