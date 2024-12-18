@@ -14,9 +14,9 @@ body {
     background-repeat: repeat;
 }
 
-/* navbar start*/
+/* navbar start---------------------------------------------------------*/
 .logo {
-    height: 3rem;
+    width: 12rem;
     padding-left: 2rem;
     padding-right: 2rem;
     margin-top: 0.5rem;
@@ -99,18 +99,21 @@ header label {
     cursor: pointer;
     display: none;
 }
-/*navbar slut*/
+/*navbar slut-----------------------------------------------------------*/
 
 
 
-/*nyheder start*/
+/*nyheder start---------------------------------------------------------*/
 main {
     padding-top: 2.8rem;
 }
 
+section.nyheder picture {
+    width: 50%;
+}
+
 section.nyheder img {
-    width: 100%;
-    height: auto;
+    width: 45rem;
 }
 
 main a {
@@ -120,13 +123,13 @@ main a {
 
 section.nyheder {
     background: #c7c7c7;
-    box-shadow: 0rem 0rem 1rem #000000;
+    box-shadow: 0rem 0.5rem 1rem #000000;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
 }
 
-article {
+section.nyheder article {
     display: flex;
     flex-direction: column;
 }
@@ -162,17 +165,91 @@ p.nyheder-tekst {
     line-height: 2.5rem;
     text-align: center;
 }
-/*nyheder stop*/
+/*nyheder stop-----------------------------------------------------------*/
 
 
 
-/*kalender start*/
+/*kalender start---------------------------------------------------------*/
 section.kalender img {
-    width: 35%;
+    width: 25rem;
 }
 
 section.kalender {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 21rem;
+    background: linear-gradient(to right, transparent, #de8200 45%);
+    justify-content: center;
+    padding: 0rem 14rem;
+}
+
+section.kalender figure {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding: 0rem 1rem;
+}
+
+section.kalender article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0rem;
+    width: 60%;
+}
+
+section.kalender h2 a:hover {
+    color: #00bdd1;
+}
+
+section.kalender ul a:hover {
+    color: #00bdd1;
+    text-decoration: underline;
+}
+
+section.kalender h2 {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+section.kalender ul {
+    font-size: 1.3rem;
+    line-height: 4rem;
+}
+/*kalender slut*/
+
+
+
+/*billetter start*/
+section.billetter {
+    background: #de8200;
+    margin-top: 21rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 14rem;
+}
+
+section.billetter figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 0rem 1rem;
+}
+
+section.billetter img {
+    width: 30rem;
+}
+
+
+
+
+
+
+img {
+    width: 10rem;
 }
