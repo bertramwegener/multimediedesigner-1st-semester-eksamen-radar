@@ -2,19 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    letter-spacing: 0.1rem;
 }
 
 body {
     font-family: sans-serif;
     text-decoration: none;
     background: url('../Billeder/brickwall.webp');
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
+    background-repeat: repeat;
 }
 
 /* navbar start*/
 .logo {
-    height: 4rem;
+    height: 3rem;
     padding-left: 2rem;
     padding-right: 2rem;
     margin-top: 0.5rem;
@@ -27,13 +29,12 @@ header {
     right: 0;
     background: #de8200;
     box-shadow: 0rem 0rem 1rem #000000;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 2%;
+    padding-right: 2%;
     display: flex;
     z-index: 1000;
     align-items: center;
     justify-content: space-between;
-    border: solid 0.1rem #000000;
 }
 
 header .navbar ul {
@@ -49,9 +50,9 @@ header .navbar ul li {
 
 header .navbar ul li a {
     text-decoration: none;
-    font-size: 1.2rem;
-    padding-top: 1.7rem;
-    padding-bottom: 1.7rem;
+    font-size: 1rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
     padding-left: 2rem;
     padding-right: 2rem;
     color: #000000;
@@ -74,7 +75,7 @@ header .navbar ul li ul {
 
 header .navbar ul li ul li a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -97,4 +98,62 @@ header label {
     color: #000000;
     cursor: pointer;
     display: none;
+}
+/*navbar slut*/
+
+
+
+/*nyheder start*/
+main {
+    padding-top: 2.8rem;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+section.nyheder {
+    background: #c7c7c7;
+    box-shadow: 0rem 0rem 1rem #000000;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 12%;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 3rem 0rem;
+}
+
+box {
+    padding: 3rem 4rem;
+}
+
+p.date {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 0.3rem 0.1rem;
+    border: solid 0.2rem #000000;
+    width: 3rem;
+    height: 4rem;
+}
+
+p.nyheder-tekst {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
 }
