@@ -281,6 +281,11 @@ section.tilbud img {
 section.tilbud h2 {
     font-size: 4rem;
     text-align: center;
+    padding-bottom: 15rem;
+}
+
+section.tilbud h2 a:hover {
+    color: #00bdd1;
 }
 /*tilbud slut*/
 
@@ -315,7 +320,7 @@ section.galleri-billeder {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 8rem;
-    box-shadow: 0rem 0.5rem 1rem #000000;
+    box-shadow: 0rem 0rem 0.5rem 0.5rem #000000;
 }
 
 section.galleri-billeder img {
@@ -323,6 +328,10 @@ section.galleri-billeder img {
     height: 23rem;
     float: left;
     object-fit: cover;
+}
+
+section.galleri h2 a:hover {
+    color: #00bdd1;
 }
 /*gallri slut*/
 
@@ -384,3 +393,16 @@ article.footer-logoer figure img {
     margin-left: 2rem;
 }
 
+article.footer-tekst h3 a:hover {
+    color: #00bdd1;
+}
+
+footer article ul li a.underline:hover {
+    text-decoration: underline;
+    color: #00bdd1;
+}
+
+footer article ul li a:hover {
+    text-decoration: none;
+    color: #00bdd1;
+}
