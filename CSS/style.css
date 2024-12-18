@@ -108,9 +108,14 @@ main {
     padding-top: 2.8rem;
 }
 
-main img {
+section.nyheder img {
     width: 100%;
     height: auto;
+}
+
+main a {
+    text-decoration: none;
+    color: #000000;
 }
 
 section.nyheder {
@@ -156,4 +161,18 @@ p.nyheder-tekst {
     font-size: 1.5rem;
     line-height: 2.5rem;
     text-align: center;
+}
+/*nyheder stop*/
+
+
+
+/*kalender start*/
+section.kalender img {
+    width: 35%;
+}
+
+section.kalender {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
