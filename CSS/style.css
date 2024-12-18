@@ -305,6 +305,56 @@ section.galleri h2 {
 section.galleri .reflect img {
     transform: scaleX(-1);
 }
+/*gallri slut*/
+
+
+
+/*footer start*/
+footer {
+    margin-top: 0rem;
+    background: linear-gradient(to bottom, transparent 15%, #de8200 25%);
+    padding: 15rem 3rem 3rem 3rem;
+}
+
+footer section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+footer h3 {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+footer article h3 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer article ul {
+    list-style: none;
+}
+
+footer article ul li {
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+footer article ul li a.underline {
+    text-decoration: underline;
+    color: #000000;
+}
+
+footer article ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
 
 
 
