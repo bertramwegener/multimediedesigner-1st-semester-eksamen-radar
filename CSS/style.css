@@ -14,6 +14,35 @@ body {
     background-repeat: repeat;
 }
 
+/*side under arbejde start*/
+main h1.under-arbejde {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    color: #de8200;
+    -webkit-text-stroke: #000000 0.1rem;
+}
+
+main p.under-arbejde {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+main p.under-arbejde a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #de8200;
+    -webkit-text-stroke: #000000 0.1rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+/*side under arbejde slut*/
+
+
+
 /* navbar start---------------------------------------------------------*/
 .logo {
     width: 12rem;
