@@ -305,6 +305,25 @@ section.galleri h2 {
 section.galleri .reflect img {
     transform: scaleX(-1);
 }
+
+section.galleri figure img {
+    width: 10rem;
+}
+
+section.galleri-billeder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+    box-shadow: 0rem 0.5rem 1rem #000000;
+}
+
+section.galleri-billeder img {
+    width: 25%;
+    height: 23rem;
+    float: left;
+    object-fit: cover;
+}
 /*gallri slut*/
 
 
@@ -353,11 +372,15 @@ footer article ul li a {
     color: #000000;
 }
 
-
-
-
-
-
-img {
-    width: 10rem;
+article.footer-logoer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
 }
+
+article.footer-logoer figure img {
+    width: 5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
