@@ -163,7 +163,7 @@ section.nyheder article {
     flex-direction: column;
 }
 
-section.nyheder div {
+section.nyheder div.nyheder-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,7 +175,7 @@ h1 {
     padding: 3rem 0rem;
 }
 
-box {
+section.nyheder div.date-box {
     padding: 3rem 4rem;
 }
 
