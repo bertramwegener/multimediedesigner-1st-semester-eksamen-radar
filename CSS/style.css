@@ -14,7 +14,7 @@ body {
     background-repeat: repeat;
 }
 
-/*side under arbejde start*/
+/*side under arbejde start-----------------------------------------------------------*/
 main h1.under-arbejde {
     text-align: center;
     display: flex;
@@ -39,7 +39,7 @@ main p.under-arbejde a {
     font-size: 3rem;
     font-weight: bold;
 }
-/*side under arbejde slut*/
+/*side under arbejde slut-----------------------------------------------------------*/
 
 
 
@@ -248,11 +248,11 @@ section.kalender ul {
     font-size: 1.3rem;
     line-height: 4rem;
 }
-/*kalender slut*/
+/*kalender slut-----------------------------------------------------------*/
 
 
 
-/*billetter start*/
+/*billetter start-----------------------------------------------------------*/
 section.billetter {
     background: linear-gradient(to left, transparent 15%, #de8200 45%);
     margin-top: 21rem;
@@ -283,11 +283,11 @@ section.billetter h2 {
 section.billetter h2 a:hover {
     color: #00bdd1;
 }
-/*billetter slut*/
+/*billetter slut-----------------------------------------------------------*/
 
 
 
-/*tilbud start*/
+/*tilbud start-----------------------------------------------------------*/
 section.tilbud {
     background: linear-gradient(to right, transparent 15%, #de8200 45%);
     display: flex;
@@ -316,11 +316,11 @@ section.tilbud h2 {
 section.tilbud h2 a:hover {
     color: #00bdd1;
 }
-/*tilbud slut*/
+/*tilbud slut-----------------------------------------------------------*/
 
 
 
-/*galleri start*/
+/*galleri start-----------------------------------------------------------*/
 section.galleri {
     display: flex;
     align-items: center;
@@ -362,11 +362,11 @@ section.galleri-billeder img {
 section.galleri h2 a:hover {
     color: #00bdd1;
 }
-/*gallri slut*/
+/*gallri slut-----------------------------------------------------------*/
 
 
 
-/*footer start*/
+/*footer start-----------------------------------------------------------*/
 footer {
     margin-top: 0rem;
     background: linear-gradient(to bottom, transparent 15%, #de8200 25%);
